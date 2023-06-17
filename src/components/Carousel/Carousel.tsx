@@ -5,8 +5,8 @@ import 'react-responsive-carousel/lib/styles/carousel.min.css';
 import 'animate.css/animate.min.css';
 import { GoProject } from 'react-icons/go';
 import { FaArrowCircleDown } from 'react-icons/fa';
-import Hello from '../images/Hello.jpg';
-import Pencil from '../images/Pencil.jpg';
+import Hello from '../Images/Hello.jpg';
+import Pencil from '../Images/Pencil.jpg';
 
 class CarouselImages extends Component {
   render() {

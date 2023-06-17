@@ -1,11 +1,11 @@
 import React, { Component } from 'react';
 import './App.css';
 import { BrowserRouter as Router } from 'react-router-dom';
-import Sidebar from './components/sidebar/Sidebar';
-import About from './components/about/About';
+import Sidebar from './components/Sidebar/Sidebar';
+import About from './components/About/About';
 import Education from './components/Education/Education';
-import Interest from './components/skills/Interest';
-import Projects from './components/Projects/Projects.js';
+import Interest from './components/Skills/Interest';
+import Projects from './components/Projects/Projects';
 import CarouselImages from './components/Carousel/Carousel';
 
 class App extends Component {

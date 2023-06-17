@@ -1,73 +1,81 @@
 import React from 'react';
 import classes from './Projects.module.css';
-import bookheap from '../images/bookheap.png';
-import chess from '../images/chess.png';
-import shopping from '../images/shopping-app.png';
-import travel from '../images/travel-log.png';
-import definition from '../images/definition.png';
-import memes from '../images/memes.png';
-import superhero from '../images/superhero.png';
+import bookheap from '../Images/bookheap.png';
+import chess from '../Images/chess.png';
+import shopping from '../Images/shopping-app.png';
+import travel from '../Images/travel-log.png';
+import definition from '../Images/definition.png';
+import memes from '../Images/memes.png';
+import superhero from '../Images/superhero.png';
 import ScrollAnimation from 'react-animate-on-scroll';
 import 'animate.css/animate.min.css';
 
+interface CardItem {
+  link: string;
+  title: string;
+  techStack: string;
+  desc: string;
+  image: string;
+}
+
 // Web projects
-const cardItem = [
+const cardItems: CardItem[] = [
   {
     link: 'https://bookheap-app.netlify.app/',
     title: 'Online Book Store',
     techStack: 'Tech Stack: MERN Stack',
-    desc: 'It is a book selling web app built in a MERN stack . You can sell books by uploading images and can also see what others are selling.',
-    image: bookheap
+    desc: 'It is a book selling web app built in a MERN stack. You can sell books by uploading images and can also see what others are selling.',
+    image: bookheap,
   },
   {
     link: 'https://chess-web-online.netlify.app/',
     title: 'Realtime Online Chess',
     techStack: 'Tech Stack- ReactJs, NodeJS, Express, Socket.io.',
     desc: 'Play real time chess with your friends online by sharing a link.',
-    image: chess
+    image: chess,
   },
   {
     link: 'https://travel-log-frontend-two.vercel.app/',
     title: 'Travel Log',
     techStack: 'Tech Stack- MERN Stack, Mapbox',
     desc: 'A full stack application to store / list places you have visited. You can log every visit on map.',
-    image: travel
+    image: travel,
   },
   {
     link: 'https://shopnowhere.netlify.app/',
     title: 'Shopping-Store',
     techStack: 'Tech Stack- React, Redux, Formik',
     desc: 'Shopping store built with React and Redux',
-    image: shopping
+    image: shopping,
   },
   {
     link: 'https://play.google.com/store/apps/details?id=com.thesachin.your_dictionary',
     title: 'Definition Finder',
     techStack: 'Tech Stack: Flutter',
     desc: 'Definition Finder is absolutely free online dictionary with every word you look up. Millions of definitions from the most trusted source.',
-    image: definition
+    image: definition,
   },
   {
     link: 'https://play.google.com/store/apps/details?id=com.thesachin.superheroes',
     title: 'My Superhero',
     techStack: 'Tech Stack- Flutter',
     desc: 'My SuperHero app provides all SuperHeroes and Villians data like powerstats, full name from all the universes.',
-    image: superhero
+    image: superhero,
   },
   {
     link: 'https://play.google.com/store/apps/details?id=com.thesachin.memestemplate',
     title: 'Indian Memes Templates',
     techStack: 'Tech Stack- Flutter',
-    desc: ' Indian meme templates - Memeशाला contains a wide range of Indian meme templates including Bollywood, political, Indian shows. You can edit and create memes too.',
-    image: memes
-  }
+    desc: 'Indian meme templates - Memeशाला contains a wide range of Indian meme templates including Bollywood, political, Indian shows. You can edit and create memes too.',
+    image: memes,
+  },
 ];
 
-export default function Projects() {
-  const getProjectCard = (cardItem) => {
+const Projects: React.FC = () => {
+  const getProjectCard = (cardItem: CardItem) => {
     return (
-      <li>
-        <a href={cardItem.link} className={classes.card} target='_blank'>
+      <li key={cardItem.title}>
+        <a href={cardItem.link} className={classes.card} target='_blank' rel='noopener noreferrer'>
           <img src={cardItem.image} className={classes.card__image} alt='' />
           <div className={classes.card__overlay}>
             <div className={classes.card__header}>
@@ -88,17 +96,11 @@ export default function Projects() {
 
   return (
     <div className={classes.box} id='projects'>
-      <ScrollAnimation
-        offset={0}
-        animateIn='fadeInLeft'
-        duration={2.4}
-        animateOnce={true}
-        initiallyVisible={true}
-      >
+      <ScrollAnimation offset={0} animateIn='fadeInLeft' duration={2.4} animateOnce initiallyVisible>
         <span className={classes.head}>MY WORK</span>
         <h2 className={classes.heading}>PROJECTS</h2>
         <ul className={classes.cards}>
-          {cardItem.map((item) => {
+          {cardItems.map((item) => {
             return getProjectCard(item);
           })}
         </ul>
@@ -111,4 +113,6 @@ export default function Projects() {
       </ScrollAnimation>
     </div>
   );
-}
+};
+
+export default Projects;
