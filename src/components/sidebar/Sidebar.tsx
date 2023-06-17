@@ -1,24 +1,31 @@
+/* eslint-disable jsx-a11y/anchor-has-content */
 import React, { Component } from 'react';
 import './Sidebar.css';
 import { HashLink as Link } from 'react-router-hash-link';
-import logo from '../Images/sam.jpg';
+import logo from '../Images/kinglerbercyportrait.png';
 
 class Sidebar extends Component {
   render() {
     return (
       <div className='sidebar'>
         <div style={{ color: 'black', fontWeight: 'bold' }} className='tagtop'>
-          # programmer_life
+          # designers_life
         </div>
         <div style={{ color: 'black', fontWeight: 'bold' }} className=''>
-          # hello_world
+          # ux_research
         </div>
         <div style={{ color: 'black', fontWeight: 'bold' }} className=''>
-          # coding
+          # ux_designer
+        </div>
+        <div style={{ color: 'black', fontWeight: 'bold' }} className=''>
+          # interactive_designer
+        </div>
+        <div style={{ color: 'black', fontWeight: 'bold' }} className=''>
+          # ui_designer
         </div>
         <h1>
           <Link smooth to='/#start' className='h1_links'>
-            Sachin Mittal
+            Kingler Bercy
           </Link>
         </h1>
 
@@ -30,7 +37,7 @@ class Sidebar extends Component {
             target='_blank'
             className='fa fa-envelope'
           ></a>{' '}
-          mittalsam98@gmail.com
+          kingler@designthru.co
         </p>
 
         <ul className='sidebar-nav'>

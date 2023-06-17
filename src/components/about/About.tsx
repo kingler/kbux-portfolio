@@ -11,7 +11,7 @@ const About: React.FC = () => {
         <h2 className={classes.heading}>Who Am I?</h2>
         <div className={classes.About}>
           <p>
-            My name is <b>SACHIN MITTAL</b> and I am currently working as <b>Software Developer Engineer</b> at{' '}
+            My name is <b>Kingler</b> and I am currently working as <b>UX/UI Designer & Prompt Engineer</b> at{' '}
             <b>
               {' '}
               <a className={classes.link} target='_blank' rel='noopener noreferrer' href='https://www.springworks.in/'>

@@ -5,8 +5,8 @@ import 'react-responsive-carousel/lib/styles/carousel.min.css';
 import 'animate.css/animate.min.css';
 import { GoProject } from 'react-icons/go';
 import { FaArrowCircleDown } from 'react-icons/fa';
-import Hello from '../Images/Hello.jpg';
-import Pencil from '../Images/Pencil.jpg';
+import Rust_6B2D1A from '../Images/rust_6B2D1A.png';
+import Purple_2C2145.png from '../Images/purple_2C2145.png';
 
 class CarouselImages extends Component {
   render() {
@@ -26,9 +26,9 @@ class CarouselImages extends Component {
           showThumbs={false}
         >
           <div className={classes.image_container}>
-            <img className={classes.image} src={Hello} alt='myImage' />
+            <img className={classes.image} src={Rust_6B2D1A} alt='myImage' />
             <div className={classes.h1}>
-              <h1>I'm Sachin</h1>
+              <h1>I'm Kingler</h1>
               <a
                 href='https://drive.google.com/file/d/1XwQYRl06QtuNPT8v4fHkbajk1ll9LTbi/view?usp=sharing'
                 rel='opener noreferrer'
@@ -39,7 +39,7 @@ class CarouselImages extends Component {
             </div>
           </div>
           <div className={classes.image_container}>
-            <img className={classes.image} src={Pencil} alt='myImage' />
+            <img className={classes.image} src={Purple_2C2145} alt='myImage' />
             <div className={classes.h2}>
               <h1> I love building</h1>
               <h1>THINGS!!</h1>

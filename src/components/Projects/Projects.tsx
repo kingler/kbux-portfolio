@@ -1,12 +1,12 @@
 import React from 'react';
 import classes from './Projects.module.css';
-import bookheap from '../Images/bookheap.png';
-import chess from '../Images/chess.png';
-import shopping from '../Images/shopping-app.png';
-import travel from '../Images/travel-log.png';
-import definition from '../Images/definition.png';
-import memes from '../Images/memes.png';
-import superhero from '../Images/superhero.png';
+import purple_2C2145 from '../Images/purple_2C2145.png';
+import lightgray_3C4553 from '../Images/lightgray_3C4553.png';
+import olive_4A561 from '../Images/olive_4A561.png';
+import rust_6B2D1A from '../Images/rust_6B2D1A.png';
+import grey_26292F from '../Images/grey_26292F.png';
+import mustard_815617 from '../Images/mustard_815617.png';
+import vylitegray_878787 from '../Images/vylitegray_878787.png';
 import ScrollAnimation from 'react-animate-on-scroll';
 import 'animate.css/animate.min.css';
 
@@ -21,53 +21,53 @@ interface CardItem {
 // Web projects
 const cardItems: CardItem[] = [
   {
-    link: 'https://bookheap-app.netlify.app/',
-    title: 'Online Book Store',
-    techStack: 'Tech Stack: MERN Stack',
-    desc: 'It is a book selling web app built in a MERN stack. You can sell books by uploading images and can also see what others are selling.',
-    image: bookheap,
+    link: 'https://2C2145-app.netlify.app/',
+    title: 'purple_2C2145',
+    techStack: 'purple_2C2145',
+    desc: 'purple_2C2145',
+    image: purple_2C2145,
   },
   {
-    link: 'https://chess-web-online.netlify.app/',
-    title: 'Realtime Online Chess',
-    techStack: 'Tech Stack- ReactJs, NodeJS, Express, Socket.io.',
-    desc: 'Play real time chess with your friends online by sharing a link.',
-    image: chess,
+    link: 'https://3C4553-web-online.netlify.app/',
+    title: 'lightgray_3C4553',
+    techStack: 'lightgray_3C4553',
+    desc: 'lightgray_3C4553',
+    image: lightgray_3C4553,
   },
   {
-    link: 'https://travel-log-frontend-two.vercel.app/',
-    title: 'Travel Log',
-    techStack: 'Tech Stack- MERN Stack, Mapbox',
-    desc: 'A full stack application to store / list places you have visited. You can log every visit on map.',
-    image: travel,
+    link: 'https://olive_4A561-frontend-two.vercel.app/',
+    title: 'olive_4A561',
+    techStack: 'olive_4A561',
+    desc: 'olive_4A561',
+    image: olive_4A561,
   },
   {
-    link: 'https://shopnowhere.netlify.app/',
-    title: 'Shopping-Store',
-    techStack: 'Tech Stack- React, Redux, Formik',
-    desc: 'Shopping store built with React and Redux',
-    image: shopping,
+    link: 'https://6B2D1A.netlify.app/',
+    title: 'rust_6B2D1A',
+    techStack: 'rust_6B2D1A',
+    desc: 'rust_6B2D1A',
+    image: rust_6B2D1A,
   },
   {
     link: 'https://play.google.com/store/apps/details?id=com.thesachin.your_dictionary',
-    title: 'Definition Finder',
-    techStack: 'Tech Stack: Flutter',
-    desc: 'Definition Finder is absolutely free online dictionary with every word you look up. Millions of definitions from the most trusted source.',
-    image: definition,
+    title: 'grey_26292F',
+    techStack: 'grey_26292F',
+    desc: 'grey_26292F',
+    image: grey_26292F,
   },
   {
     link: 'https://play.google.com/store/apps/details?id=com.thesachin.superheroes',
-    title: 'My Superhero',
-    techStack: 'Tech Stack- Flutter',
-    desc: 'My SuperHero app provides all SuperHeroes and Villians data like powerstats, full name from all the universes.',
-    image: superhero,
+    title: 'vylitegray_878787',
+    techStack: 'vylitegray_878787',
+    desc: 'vylitegray_878787',
+    image: vylitegray_878787,
   },
   {
     link: 'https://play.google.com/store/apps/details?id=com.thesachin.memestemplate',
-    title: 'Indian Memes Templates',
-    techStack: 'Tech Stack- Flutter',
-    desc: 'Indian meme templates - Memeशाला contains a wide range of Indian meme templates including Bollywood, political, Indian shows. You can edit and create memes too.',
-    image: memes,
+    title: 'mustard_815617',
+    techStack: 'mustard_815617',
+    desc: 'mustard_815617',
+    image: mustard_815617,
   },
 ];
 
