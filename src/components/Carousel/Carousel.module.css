@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Permanent+Marker&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
 .image {
   height: 734px;
 }
@@ -6,7 +6,7 @@
 .h1 {
   margin: 50px;
   font-size: 2rem;
-  font-family: 'Permanent Marker', cursive;
+  font-family: 'Roboto', sans-serif;
   animation-name: text;
   animation-duration: 1s;
   animation-timing-function: ease-out;
@@ -19,7 +19,7 @@
 .h2 {
   margin: 50px;
   font-size: 2rem;
-  font-family: 'Permanent Marker', cursive;
+  font-family: 'Roboto', sans-serif;
   animation-name: text;
   animation-duration: 1s;
   animation-timing-function: ease-out;
@@ -35,7 +35,7 @@
   width: 170px;
   margin: 50px;
   font-size: 1.1rem;
-  font-family: 'Permanent Marker', cursive;
+  font-family: 'Roboto', sans-serif;
   animation-name: text;
   animation-duration: 1s;
   animation-timing-function: ease-out;
@@ -53,7 +53,7 @@
   width: 170px;
   margin: 50px;
   font-size: 1.1rem;
-  font-family: 'Permanent Marker', cursive;
+  font-family: 'Roboto', sans-serif;
   animation-name: text;
   animation-duration: 1s;
   animation-timing-function: ease-out;

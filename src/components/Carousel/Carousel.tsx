@@ -6,7 +6,7 @@ import 'animate.css/animate.min.css';
 import { GoProject } from 'react-icons/go';
 import { FaArrowCircleDown } from 'react-icons/fa';
 import Rust_6B2D1A from '../Images/rust_6B2D1A.png';
-import Purple_2C2145.png from '../Images/purple_2C2145.png';
+import Purple_2C2145 from '../Images/purple_2C2145.png';
 
 class CarouselImages extends Component {
   render() {
@@ -30,7 +30,7 @@ class CarouselImages extends Component {
             <div className={classes.h1}>
               <h1>I'm Kingler</h1>
               <a
-                href='https://drive.google.com/file/d/1XwQYRl06QtuNPT8v4fHkbajk1ll9LTbi/view?usp=sharing'
+                href='https://drive.google.com/'
                 rel='opener noreferrer'
                 target='_blank'
               >
