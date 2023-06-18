@@ -1,4 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import url('https://static.parastorage.com/unpkg/@wix/wix-fonts@1.11.0/madefor.css');
+
+body {
+  --main-bg-color: rgb(241, 241, 241);
+}  
+
 .App {
   height:710px;
   display:grid;
