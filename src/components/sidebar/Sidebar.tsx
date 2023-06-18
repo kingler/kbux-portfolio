@@ -2,17 +2,16 @@
 import React, { Component } from 'react';
 import './Sidebar.css';
 import { HashLink as Link } from 'react-router-hash-link';
-import logo from '../Images/kinglerbercyportrait.png';
-import Image from '../Images/Images.png';
+import Image from '../Images/Image';
 class Sidebar extends Component {
   render() {
     return (
       <div className='sidebar'>
         <div style={{ color: 'black', fontWeight: 'bold' }} className='tagtop'>
-        <Image src="/Users/kingler/Project/Website/kbux-portfolio/src/components/Images/1F2C43.png" alt="Description of image" className="additional-classes" />
+        <Image src="../Images/1F2C43.png" alt="Description of image" className="additional-classes" />
         </div>
         <div style={{ color: 'black', fontWeight: 'bold' }} className=''>
-        <Image src="/Users/kingler/Project/Website/kbux-portfolio/src/components/Images/1F2C43.png" alt="Description of image" className="additional-classes" />
+        <Image src="../Images/1F2C43.png" alt="Description of image" className="additional-classes" />
        ux_research
         </div>
         <div style={{ color: 'black', fontWeight: 'bold' }} className=''>
@@ -30,7 +29,7 @@ class Sidebar extends Component {
           </Link>
         </h1>
 
-        <img src={logo} alt="Logo" />
+        <Image src="../Images/kinglerbercyportrait.png" alt="Description of image" className="additional-classes" />
         <p style={{ color: 'black', fontWeight: 'bold' }} className='gmail'>
           <a
             href='https://mail.google.com/mail/u/0/#inbox?compose=CllgCJftvBffjPmxWxvfHWRHWnhTbpQgPxBxvkcnPpFpFqbhrXMCHXSJTsCXCVLsQzgRcVLpnPL'

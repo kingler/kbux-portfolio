@@ -7,7 +7,6 @@ import Education from './components/Education/Education';
 import Skills from './components/Skills/Skills';
 import Projects from './components/Projects/Projects';
 import CarouselImages from './components/Carousel/Carousel';
-import Image from './Image';
 
 class App extends Component {
   render() {

@@ -1,3 +1,11 @@
+import React from 'react';
+import { createBoard } from '@wixc3/react-board';
+import About from '../../../components/About/About';
 
-// Add this line at the end of your file
-export {};
+export default createBoard({
+  name: 'About',
+  Board: () => <About />,
+  environmentProps: {
+    canvasHeight: 900
+  }
+});
