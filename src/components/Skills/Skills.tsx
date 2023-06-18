@@ -1,9 +1,9 @@
 import React, { Component } from 'react';
-import classes from './Interest.module.css';
+import classes from './Skills.module.css';
 import ScrollAnimation from 'react-animate-on-scroll';
 import 'animate.css/animate.min.css';
 
-class Interest extends Component {
+class Skills extends Component {
   render() {
     return (
       <div className={classes.box} id='interest'>
@@ -16,7 +16,7 @@ class Interest extends Component {
         >
           <span className={classes.head}>WHAT I DO?</span>
           <h2 className={classes.heading}>HERE ARE SOME OF MY EXPERTISE</h2>
-          <div className={classes.Interest}>
+          <div className={classes.Skills}>
             <ScrollAnimation
               offset={0}
               animateIn='fadeInLeft'
@@ -56,7 +56,7 @@ class Interest extends Component {
               initiallyVisible={true}
             >
               <div className={classes.other}>
-                <h3>Other's Interest</h3>
+                <h3>Other's Skills</h3>
                 <p>
                   I also have decent hand in developing website with WordPress or others CMS as
                   well.
@@ -73,4 +73,4 @@ class Interest extends Component {
   }
 }
 
-export default Interest;
+export default Skills;

@@ -3,25 +3,26 @@ import React, { Component } from 'react';
 import './Sidebar.css';
 import { HashLink as Link } from 'react-router-hash-link';
 import logo from '../Images/kinglerbercyportrait.png';
-
+import Image from '../Images/Images.png';
 class Sidebar extends Component {
   render() {
     return (
       <div className='sidebar'>
         <div style={{ color: 'black', fontWeight: 'bold' }} className='tagtop'>
-          # designers_life
+        <Image src="/Users/kingler/Project/Website/kbux-portfolio/src/components/Images/1F2C43.png" alt="Description of image" className="additional-classes" />
         </div>
         <div style={{ color: 'black', fontWeight: 'bold' }} className=''>
-          # ux_research
+        <Image src="/Users/kingler/Project/Website/kbux-portfolio/src/components/Images/1F2C43.png" alt="Description of image" className="additional-classes" />
+       ux_research
         </div>
         <div style={{ color: 'black', fontWeight: 'bold' }} className=''>
-          # ux_designer
+        ux_designer
         </div>
         <div style={{ color: 'black', fontWeight: 'bold' }} className=''>
-          # interactive_designer
+        interactive_designer
         </div>
         <div style={{ color: 'black', fontWeight: 'bold' }} className=''>
-          # ui_designer
+        ui_designer
         </div>
         <h1>
           <Link smooth to='/#start' className='h1_links'>
@@ -52,8 +53,8 @@ class Sidebar extends Component {
             </Link>
           </li>
           <li className='sidebar-nav-items'>
-            <Link smooth to='/#interest' className='links'>
-              Interest
+            <Link smooth to='/#skills' className='links'>
+              Skills
             </Link>
           </li>
           <li className='sidebar-nav-items'>

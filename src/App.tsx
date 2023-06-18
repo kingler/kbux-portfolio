@@ -4,9 +4,10 @@ import { BrowserRouter as Router } from 'react-router-dom';
 import Sidebar from './components/Sidebar/Sidebar';
 import About from './components/About/About';
 import Education from './components/Education/Education';
-import Interest from './components/Skills/Interest';
+import Skills from './components/Skills/Skills';
 import Projects from './components/Projects/Projects';
 import CarouselImages from './components/Carousel/Carousel';
+import Image from './Image';
 
 class App extends Component {
   render() {
@@ -33,7 +34,7 @@ class App extends Component {
             <CarouselImages />
             <Projects />
             <About />
-            <Interest />
+            <Skills />
             <Education />
           </div>
         </div>
